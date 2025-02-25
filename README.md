@@ -17,7 +17,7 @@ Removed Variables: The EIN and NAME, they do not provide predictive value for th
 
 #### Compiling, Training, and Evaluating the Model
 
-Model Architecture:
+##### Model Architecture:
 
 Neurons: 128 neurons in the first layer, 64 in the second layer, and 1 in the output layer.
 
@@ -27,7 +27,7 @@ Activation Functions: ReLU handled non-linear relationships, while sigmoid handl
 
 Model Performance: The optimized model achieved an accuracy greater than the goal of 75%.
 
-Performance Improvement Steps:
+##### Performance Improvement Steps:
 
 Feature scaling with StandardScaler.
 
@@ -37,6 +37,6 @@ Reduced overfitting with dropout layers.
 
 Early stopping to prevent unnecessary epochs from reducing model performance.
 
-Summary
+## Summary
 
 The model performed accurately. Alphabet Soup Charity could make use of the model as is to better their fundraising. However, an alternative approach could involve using ensemble methods such as Random Forest or XGBoost. These libraries could help with classification tasks and feature importance.
